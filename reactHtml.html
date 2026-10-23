@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>React within html</title>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    </head>
+    <body>
+        <div id="root">
+            <script type="text/babel">
+                // React code
+                function HelloWorld(){  // similar to compoenent
+                    return <h1>Hello World</h1>  //  jsx <h1>
+                }
+                
+                const root = ReactDOM.createRoot(document.getElementById("root"));
+                root.render(<HelloWorld/>)
+            </script>
+        </div>
+    </body>
+</html>
