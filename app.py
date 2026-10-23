@@ -11,7 +11,7 @@ pg = st.navigation({
     ],
     "Styling": [
         st.Page("./inlineCss.py", title="Inline CSS"),
-        st.Page("./fileBasedCSS.py", title="File based CSS")
+        st.Page("./filebasedCSS.py", title="File based CSS")
     ],
     "State in React":[
         st.Page("./stateInReact.py", title="Introduction"),
