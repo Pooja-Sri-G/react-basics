@@ -16,7 +16,8 @@ pg = st.navigation({
     "State in React":[
         st.Page("./stateInReact.py", title="Introduction"),
         st.Page("./stateInReact2.py",title="State in class component"),
-        st.Page("./stateInReact3.py", title="State with objects")
+        st.Page("./stateInReact3.py", title="State with objects"),
+        st.Page("./stateInReact4.py", title="ArrayList updation")
     ]
     #"Advanced": [
       #  st.Page("pages/hooks.py", title="Hooks", icon="🪝"),
