@@ -32,7 +32,10 @@ function List(){
 }
 export default List;
 """,language='javascript')
+st.caption("OUTPUT")
+st.image("arrayList.png")
 
+st.write("Another example using String")
 st.code("""
 import {useState} from 'react';
 function List(){
@@ -68,3 +71,5 @@ function List(){
 }
 export default List;
 """, language='javascript')
+st.caption("OUTPUT")
+st.image("arrayTeams.png")
